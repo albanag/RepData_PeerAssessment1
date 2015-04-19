@@ -5,8 +5,6 @@ keep_md: true
 ---
 
 ```{r}
-# TODO: remove
-setwd("/Users/albanag/coursera/datasciencecoursera/repdata/RepData_PeerAssessment1")
 library(dplyr)
 ```
 
@@ -147,5 +145,5 @@ library(lattice)
 xyplot(avg_steps_interval~interval | factor(day_type, labels=c("Weekend", "Weekday")), data=df_panel, type="l",
        main="", xlab="Time interval",  ylab="Avg. number of steps",layout=c(1,2))
 
-# There is a clear difference between the weekend and the weekdays. In weekends the number of steps is more evenly distributed through the whole day, while during the weekdays the number of steps follow a different pattern.
+# There is a clear difference between the weekend and the weekdays. In weekends the number of steps is more evenly distributed throughout the whole day, while during the weekdays the number of steps follow a different pattern.
 ```

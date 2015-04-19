@@ -231,5 +231,5 @@ xyplot(avg_steps_interval~interval | factor(day_type, labels=c("Weekend", "Weekd
 ![plot of chunk unnamed-chunk-13](figure/unnamed-chunk-13-1.png) 
 
 ```r
-# There is a clear difference between the weekend and the weekdays. In weekends the number of steps is more evenly distributed through the whole day, while during the weekdays the number of steps follow a different pattern.
+# There is a clear difference between the weekend and the weekdays. In weekends the number of steps is more evenly distributed throughout the whole day, while during the weekdays the number of steps follow a different pattern.
 ```
